@@ -1,9 +1,9 @@
 layout: {zmk_keyboard: eyelash_corne}
 layers:
   BASE:
-  - $$mdi:keyboard-esc$$
-  - Q
-  - W
+  - Esc
+  - A
+  - Z
   - E
   - R
   - T
@@ -13,9 +13,9 @@ layers:
   - I
   - O
   - P
-  - {t: '$$mdi:backspace$$', type: backspace}
-  - $$mdi:apple-keyboard-shift$$
-  - A
+  - Backspace
+  - Shift
+  - Q
   - S
   - D
   - F
@@ -27,69 +27,69 @@ layers:
   - J
   - K
   - L
-  - {t: ;, s: ':'}
-  - {t: '''', s: '"'}
-  - $$mdi:apple-keyboard-control$$
-  - Z
+  - M
+  - {t: ù, s: '%'}
+  - Ctrl
+  - W
   - X
   - C
   - V
   - B
-  - $$mdi:keyboard-space$$
+  - Space
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - N
-  - M
-  - {t: ',', s: <}
-  - {t: ., s: '>'}
-  - {t: /, s: '?'}
-  - $$mdi:keyboard-tab$$
-  - LGUI
+  - {t: ',', s: '?'}
+  - {t: ;, s: .}
+  - {t: ':', s: /}
+  - {t: '!', s: §}
+  - Tab
+  - Meta
   - NAV
-  - $$mdi:keyboard-space$$
-  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - Space
+  - Enter
   - NUM/SYM
-  - $$mdi:apple-keyboard-option$$
+  - AltGr
   NUM/SYM:
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: AltGr+3, s: AltGr+#}
-  - {t: AltGr+4, s: AltGr+$}
-  - {t: AltGr+5, s: AltGr+%}
-  - {t: '5', s: '%'}
-  - {t: '-', s: _}
+  - '#'
+  - '{'
+  - '['
+  - {t: (, s: '5'}
+  - {t: ), s: °}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: Sft+7, s: Sft+&}
-  - {t: Sft+8, s: Sft+*}
-  - {t: Sft+9, s: Sft+(}
+  - '7'
+  - '8'
+  - '9'
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: AltGr+6, s: AltGr+^}
-  - {t: AltGr+8, s: AltGr+*}
-  - {t: AltGr+9, s: AltGr+(}
-  - {t: AltGr+0, s: AltGr+)}
+  - '|'
+  - \
+  - ^
+  - '@'
   - {t: '=', s: +}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: Sft+4, s: Sft+$}
-  - {t: Sft+5, s: Sft+%}
-  - {t: Sft+6, s: Sft+^}
+  - '4'
+  - '5'
+  - '6'
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: AltGr+-, s: AltGr+_}
-  - {t: AltGr+=, s: AltGr++}
-  - {t: 'Sft+,', s: Sft+<}
-  - {t: Sft+., s: Sft+>}
-  - {t: Sft+/, s: 'Sft+?'}
+  - ']'
+  - '}'
+  - .
+  - /
+  - §
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: Sft+1, s: Sft+!}
-  - {t: Sft+2, s: Sft+@}
-  - {t: Sft+3, s: Sft+#}
-  - {t: Sft+0, s: Sft+)}
+  - '1'
+  - '2'
+  - '3'
+  - '0'
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -99,34 +99,18 @@ layers:
   - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   NAV:
-  - '&studio_unlock'
+  - Studio unlock
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - HOME
-  - PG DN
-  - PG UP
-  - END
-  - $$mdi:backspace-reverse-outline$$
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - $$mdi:arrow-left-bold$$
-  - $$mdi:arrow-down-bold$$
-  - $$mdi:arrow-up-bold$$
-  - $$mdi:arrow-right-bold$$
-  - $$mdi:backspace-reverse-outline$$
-  - {t: '$$mdi:transfer$$', type: trans}
+  - Home
+  - PgDn
+  - PgUp
+  - End
+  - Delete
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -135,11 +119,27 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - HOME
-  - PG DN
-  - PG UP
-  - END
-  - INS
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - ←
+  - ↓
+  - ↑
+  - →
+  - Delete
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - Home
+  - PgDn
+  - PgUp
+  - End
+  - Insert
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}

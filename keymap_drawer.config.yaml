@@ -117,6 +117,84 @@ parse_config:
     type: trans
 
   raw_binding_map:
+    # French AZERTY legends (aliases from config/keys_fr.h).
+    "&kp FR_A": {"tap": "A", "shifted": "", "hold": ""}
+    "&kp FR_AT_SIGN": {"tap": "@", "shifted": "", "hold": ""}
+    "&kp FR_B": {"tap": "B", "shifted": "", "hold": ""}
+    "&kp FR_BACKSLASH": {"tap": "\\", "shifted": "", "hold": ""}
+    "&kp FR_C": {"tap": "C", "shifted": "", "hold": ""}
+    "&kp FR_CARET": {"tap": "^", "shifted": "", "hold": ""}
+    "&kp FR_COLON": {"tap": ":", "shifted": "/", "hold": ""}
+    "&kp FR_COMMA": {"tap": ",", "shifted": "?", "hold": ""}
+    "&kp FR_D": {"tap": "D", "shifted": "", "hold": ""}
+    "&kp FR_E": {"tap": "E", "shifted": "", "hold": ""}
+    "&kp FR_EQUAL": {"tap": "=", "shifted": "+", "hold": ""}
+    "&kp FR_EXCLAMATION": {"tap": "!", "shifted": "§", "hold": ""}
+    "&kp FR_F": {"tap": "F", "shifted": "", "hold": ""}
+    "&kp FR_G": {"tap": "G", "shifted": "", "hold": ""}
+    "&kp FR_H": {"tap": "H", "shifted": "", "hold": ""}
+    "&kp FR_HASH": {"tap": "#", "shifted": "", "hold": ""}
+    "&kp FR_I": {"tap": "I", "shifted": "", "hold": ""}
+    "&kp FR_J": {"tap": "J", "shifted": "", "hold": ""}
+    "&kp FR_K": {"tap": "K", "shifted": "", "hold": ""}
+    "&kp FR_L": {"tap": "L", "shifted": "", "hold": ""}
+    "&kp FR_LEFT_BRACE": {"tap": "{", "shifted": "", "hold": ""}
+    "&kp FR_LEFT_BRACKET": {"tap": "[", "shifted": "", "hold": ""}
+    "&kp FR_LEFT_PARENTHESIS": {"tap": "(", "shifted": "5", "hold": ""}
+    "&kp FR_M": {"tap": "M", "shifted": "", "hold": ""}
+    "&kp FR_N": {"tap": "N", "shifted": "", "hold": ""}
+    "&kp FR_N0": {"tap": "0", "shifted": "", "hold": ""}
+    "&kp FR_N1": {"tap": "1", "shifted": "", "hold": ""}
+    "&kp FR_N2": {"tap": "2", "shifted": "", "hold": ""}
+    "&kp FR_N3": {"tap": "3", "shifted": "", "hold": ""}
+    "&kp FR_N4": {"tap": "4", "shifted": "", "hold": ""}
+    "&kp FR_N5": {"tap": "5", "shifted": "", "hold": ""}
+    "&kp FR_N6": {"tap": "6", "shifted": "", "hold": ""}
+    "&kp FR_N7": {"tap": "7", "shifted": "", "hold": ""}
+    "&kp FR_N8": {"tap": "8", "shifted": "", "hold": ""}
+    "&kp FR_N9": {"tap": "9", "shifted": "", "hold": ""}
+    "&kp FR_O": {"tap": "O", "shifted": "", "hold": ""}
+    "&kp FR_P": {"tap": "P", "shifted": "", "hold": ""}
+    "&kp FR_PERIOD": {"tap": ".", "shifted": "", "hold": ""}
+    "&kp FR_PIPE": {"tap": "|", "shifted": "", "hold": ""}
+    "&kp FR_Q": {"tap": "Q", "shifted": "", "hold": ""}
+    "&kp FR_R": {"tap": "R", "shifted": "", "hold": ""}
+    "&kp FR_RIGHT_BRACE": {"tap": "}", "shifted": "", "hold": ""}
+    "&kp FR_RIGHT_BRACKET": {"tap": "]", "shifted": "", "hold": ""}
+    "&kp FR_RIGHT_PARENTHESIS": {"tap": ")", "shifted": "°", "hold": ""}
+    "&kp FR_S": {"tap": "S", "shifted": "", "hold": ""}
+    "&kp FR_SECTION": {"tap": "§", "shifted": "", "hold": ""}
+    "&kp FR_SEMICOLON": {"tap": ";", "shifted": ".", "hold": ""}
+    "&kp FR_SLASH": {"tap": "/", "shifted": "", "hold": ""}
+    "&kp FR_T": {"tap": "T", "shifted": "", "hold": ""}
+    "&kp FR_U": {"tap": "U", "shifted": "", "hold": ""}
+    "&kp FR_U_GRAVE": {"tap": "ù", "shifted": "%", "hold": ""}
+    "&kp FR_V": {"tap": "V", "shifted": "", "hold": ""}
+    "&kp FR_W": {"tap": "W", "shifted": "", "hold": ""}
+    "&kp FR_X": {"tap": "X", "shifted": "", "hold": ""}
+    "&kp FR_Y": {"tap": "Y", "shifted": "", "hold": ""}
+    "&kp FR_Z": {"tap": "Z", "shifted": "", "hold": ""}
+    # Plain labels for the current Linux workflow.
+    "&kp ESC": {"tap": "Esc", "shifted": "", "hold": ""}
+    "&kp BSPC": {"tap": "Backspace", "shifted": "", "hold": ""}
+    "&kp LSHFT": {"tap": "Shift", "shifted": "", "hold": ""}
+    "&kp LCTRL": {"tap": "Ctrl", "shifted": "", "hold": ""}
+    "&kp LGUI": {"tap": "Meta", "shifted": "", "hold": ""}
+    "&kp RALT": {"tap": "AltGr", "shifted": "", "hold": ""}
+    "&kp SPACE": {"tap": "Space", "shifted": "", "hold": ""}
+    "&kp ENTER": {"tap": "Enter", "shifted": "", "hold": ""}
+    "&kp TAB": {"tap": "Tab", "shifted": "", "hold": ""}
+    "&kp HOME": {"tap": "Home", "shifted": "", "hold": ""}
+    "&kp PG_DN": {"tap": "PgDn", "shifted": "", "hold": ""}
+    "&kp PG_UP": {"tap": "PgUp", "shifted": "", "hold": ""}
+    "&kp END": {"tap": "End", "shifted": "", "hold": ""}
+    "&kp DEL": {"tap": "Delete", "shifted": "", "hold": ""}
+    "&kp INS": {"tap": "Insert", "shifted": "", "hold": ""}
+    "&kp LEFT": {"tap": "←", "shifted": "", "hold": ""}
+    "&kp DOWN": {"tap": "↓", "shifted": "", "hold": ""}
+    "&kp UP": {"tap": "↑", "shifted": "", "hold": ""}
+    "&kp RIGHT": {"tap": "→", "shifted": "", "hold": ""}
+    "&studio_unlock": {"tap": "Studio unlock", "shifted": "", "hold": ""}
     # Layers
     "&ltq 1 BACKSPACE":
       tap:  $$mdi:backspace$$
