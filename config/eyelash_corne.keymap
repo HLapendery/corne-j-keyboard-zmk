@@ -31,21 +31,15 @@
          * Left hand: common programming symbols for a French AZERTY host.
          * Right hand: digits arranged as a numpad.
          *
-         * FR AZERTY:
-         *   AltGr+3 #   AltGr+4 {   AltGr+5 [
-         *   AltGr+6 |   AltGr+8 \   AltGr+9 ^
-         *   AltGr+0 @   AltGr+) ]   AltGr+= }
-         *   5 = (       ) key = )   = key = =
-         *
          * Digits require Shift on the French number row.
          */
         num_sym_layer {
             display-name = "NUM/SYM";
             bindings = <
-&trans  &kp RALT(N3)     &kp RALT(N4)     &kp RALT(N5)     &kp N5        &kp MINUS              &none                 &kp LS(N7)  &kp LS(N8)  &kp LS(N9)  &trans      &trans  &trans
-&trans  &kp RALT(N6)     &kp RALT(N8)     &kp RALT(N9)     &kp RALT(N0)  &kp EQUAL     &none    &none    &none         &kp LS(N4)  &kp LS(N5)  &kp LS(N6)  &trans      &trans  &trans
-&trans  &kp RALT(MINUS)  &kp RALT(EQUAL)  &kp LS(COMMA)    &kp LS(DOT)   &kp LS(FSLH)  &trans   &none                 &kp LS(N1)  &kp LS(N2)  &kp LS(N3)  &kp LS(N0)  &trans  &trans
-                                          &trans  &trans  &trans                                            &trans      &trans      &trans
+&trans  &kp RA(N3)     &kp RA(N4)     &kp RA(N5)     &kp N5        &kp MINUS              &none                 &kp LS(N7)  &kp LS(N8)  &kp LS(N9)  &trans      &trans  &trans
+&trans  &kp RA(N6)     &kp RA(N8)     &kp RA(N9)     &kp RA(N0)    &kp EQUAL     &none    &none    &none         &kp LS(N4)  &kp LS(N5)  &kp LS(N6)  &trans      &trans  &trans
+&trans  &kp RA(MINUS)  &kp RA(EQUAL)  &kp LS(COMMA)  &kp LS(DOT)   &kp LS(FSLH)  &trans   &none                 &kp LS(N1)  &kp LS(N2)  &kp LS(N3)  &kp LS(N0)  &trans  &trans
+                                        &trans  &trans  &trans                                            &trans      &trans      &trans
             >;
         };
 
