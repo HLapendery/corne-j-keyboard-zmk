@@ -28,7 +28,7 @@ layers:
   - K
   - L
   - M
-  - $$mdi:apple-keyboard-option$$
+  - $$mdi:apple-keyboard-caps$$
   - Ctrl
   - W
   - X
@@ -44,10 +44,10 @@ layers:
   - {t: '!', s: §}
   - Tab
   - Meta
-  - NAV
+  - NUM/SYM
   - Space
   - Enter
-  - NUM/SYM
+  - NAV
   - $$mdi:apple-keyboard-option$$
   NUM/SYM:
   - {t: '$$mdi:transfer$$', type: trans}
@@ -93,14 +93,14 @@ layers:
   - {t: '0', s: )}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held}
   - Space
   - Enter
-  - {type: held}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   NAV:
   - Studio unlock
-  - {t: '$$mdi:transfer$$', type: trans}
+  - RGB TOG
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -142,8 +142,8 @@ layers:
   - Insert
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
