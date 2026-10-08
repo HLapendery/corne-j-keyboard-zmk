@@ -101,10 +101,10 @@ layers:
   NAV:
   - Studio unlock
   - RGB TOG
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - $$mdi:bluetooth-off$$
+  - RGB EFF
+  - RGB BRD
+  - RGB BRI
+  - RGB COLOR HSB(0,0,100)
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - Home
   - PgDn
@@ -112,7 +112,7 @@ layers:
   - End
   - Delete
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - $$mdi:bluetooth-off$$
   - {h: '1', s: '$$mdi:bluetooth-connect$$'}
   - {h: '2', s: '$$mdi:bluetooth-connect$$'}
   - {h: '3', s: '$$mdi:bluetooth-connect$$'}
