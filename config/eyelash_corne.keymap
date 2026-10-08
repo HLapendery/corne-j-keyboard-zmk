@@ -21,10 +21,10 @@
         default_layer {
             display-name = "BASE";
             bindings = <
-&kp ESC    &kp FR_A  &kp FR_Z  &kp FR_E  &kp FR_R  &kp FR_T                       &none         &kp FR_Y   &kp FR_U      &kp FR_I          &kp FR_O      &kp FR_P            &kp BSPC
-&kp LSHFT  &kp FR_Q  &kp FR_S  &kp FR_D  &kp FR_F  &kp FR_G                &none  &none  &none  &kp FR_H   &kp FR_J      &kp FR_K          &kp FR_L      &kp FR_M            &kp FR_U_GRAVE
-&kp LCTRL  &kp FR_W  &kp FR_X  &kp FR_C  &kp FR_V  &kp FR_B   &kp SPACE           &none         &kp FR_N   &kp FR_COMMA  &kp FR_SEMICOLON  &kp FR_COLON  &kp FR_EXCLAMATION  &kp TAB
-                               &kp LGUI  &mo 2     &kp SPACE                                    &kp ENTER  &mo 1         &kp RALT
+&kp ESC    &kp FR_A  &kp FR_Z  &kp FR_E  &kp FR_R  &kp FR_T                    &none         &kp FR_Y   &kp FR_U      &kp FR_I         &kp FR_O      &kp FR_P            &kp BSPC
+&kp LSHFT  &kp FR_Q  &kp FR_S  &kp FR_D  &kp FR_F  &kp FR_G             &none  &none  &none  &kp FR_H   &kp FR_J      &kp FR_K         &kp FR_L      &kp FR_M            &kp RIGHT_ALT
+&kp LCTRL  &kp FR_W  &kp FR_X  &kp FR_C  &kp FR_V  &kp FR_B   &trans           &none         &kp FR_N   &kp FR_COMMA  &kp FR_QUESTION  &kp FR_COLON  &kp FR_EXCLAMATION  &kp TAB
+                               &kp LGUI  &mo 2     &kp SPACE                                 &kp ENTER  &mo 1         &kp LALT
             >;
         };
 
@@ -40,10 +40,10 @@
         num_sym_layer {
             display-name = "NUM/SYM";
             bindings = <
-&trans  &kp FR_HASH           &kp FR_LEFT_BRACE   &kp FR_LEFT_BRACKET  &kp FR_LEFT_PARENTHESIS  &kp FR_RIGHT_PARENTHESIS                   &none         &kp FR_N7                 &kp FR_N8  &kp FR_N9  &trans     &trans  &trans
-&trans  &kp FR_PIPE           &kp FR_BACKSLASH    &kp FR_CARET         &kp FR_AT_SIGN           &kp FR_EQUAL                        &none  &none  &none  &kp FR_N4                 &kp FR_N5  &kp FR_N6  &trans     &trans  &trans
-&trans  &kp FR_RIGHT_BRACKET  &kp FR_RIGHT_BRACE  &kp FR_PERIOD        &kp FR_SLASH             &kp FR_SECTION            &trans           &none         &kp FR_RIGHT_PARENTHESIS  &kp FR_N1  &kp FR_N2  &kp FR_N3  &kp N0  &trans
-                                                  &trans               &trans                   &trans                                                   &trans                    &trans     &trans
+&trans  &kp FR_HASH   &kp FR_MINUS      &kp FR_SECTION  &kp FR_AT_SIGN     &kp FR_LEFT_BRACKET                       &none         &kp FR_RIGHT_BRACKET      &kp FR_N7  &kp FR_N8  &kp FR_N9  &trans  &trans
+&trans  &kp FR_PIPE   &kp FR_BACKSLASH  &kp FR_CARET    &kp FR_UNDERSCORE  &kp FR_LEFT_PARENTHESIS            &none  &none  &none  &kp FR_RIGHT_PARENTHESIS  &kp FR_N4  &kp FR_N5  &kp FR_N6  &trans  &trans
+&trans  &kp FR_COLON  &kp FR_EQUAL      &kp FR_PERIOD   &kp FR_SLASH       &kp FR_LEFT_BRACE        &trans           &none         &kp FR_RIGHT_BRACE        &kp FR_N1  &kp FR_N2  &kp FR_N3  &kp N0  &trans
+                                        &trans          &trans             &kp SPACE                                               &kp ENTER                 &trans     &trans
             >;
         };
 
