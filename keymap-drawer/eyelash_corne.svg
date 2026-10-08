@@ -6,6 +6,18 @@
 <svg id="mdi:apple-keyboard-option">
 <svg xmlns="http://www.w3.org/2000/svg" id="mdi-apple-keyboard-option" viewBox="0 0 24 24"><path d="M3,4H9.11L16.15,18H21V20H14.88L7.84,6H3V4M14,4H21V6H14V4Z" /></svg>
 </svg>
+<svg id="mdi:arrow-down-bold">
+<svg xmlns="http://www.w3.org/2000/svg" id="mdi-arrow-down-bold" viewBox="0 0 24 24"><path d="M9,4H15V12H19.84L12,19.84L4.16,12H9V4Z" /></svg>
+</svg>
+<svg id="mdi:arrow-left-bold">
+<svg xmlns="http://www.w3.org/2000/svg" id="mdi-arrow-left-bold" viewBox="0 0 24 24"><path d="M20,9V15H12V19.84L4.16,12L12,4.16V9H20Z" /></svg>
+</svg>
+<svg id="mdi:arrow-right-bold">
+<svg xmlns="http://www.w3.org/2000/svg" id="mdi-arrow-right-bold" viewBox="0 0 24 24"><path d="M4,15V9H12V4.16L19.84,12L12,19.84V15H4Z" /></svg>
+</svg>
+<svg id="mdi:arrow-up-bold">
+<svg xmlns="http://www.w3.org/2000/svg" id="mdi-arrow-up-bold" viewBox="0 0 24 24"><path d="M15,20H9V12H4.16L12,4.16L19.84,12H15V20Z" /></svg>
+</svg>
 <svg id="mdi:bluetooth-connect">
 <svg xmlns="http://www.w3.org/2000/svg" id="mdi-bluetooth-connect" viewBox="0 0 24 24"><path d="M19,10L17,12L19,14L21,12M14.88,16.29L13,18.17V14.41M13,5.83L14.88,7.71L13,9.58M17.71,7.71L12,2H11V9.58L6.41,5L5,6.41L10.59,12L5,17.58L6.41,19L11,14.41V22H12L17.71,16.29L13.41,12M7,12L5,10L3,12L5,14L7,12Z" /></svg>
 </svg>
@@ -920,22 +932,22 @@ rect.held, rect.combo.held {
 <g transform="translate(672, 153)" class="key keypos-36">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
-<text x="0" y="-4" class="key tap">Home</text>
+<use href="#mdi:arrow-left-bold" xlink:href="#mdi:arrow-left-bold" x="-9" y="-13" height="18" width="18.0" class="key tap glyph mdi:arrow-left-bold"/>
 </g>
 <g transform="translate(728, 147)" class="key keypos-37">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
-<text x="0" y="-4" class="key tap">PgDn</text>
+<use href="#mdi:arrow-down-bold" xlink:href="#mdi:arrow-down-bold" x="-9" y="-13" height="18" width="18.0" class="key tap glyph mdi:arrow-down-bold"/>
 </g>
 <g transform="translate(784, 140)" class="key keypos-38">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
-<text x="0" y="-4" class="key tap">PgUp</text>
+<use href="#mdi:arrow-up-bold" xlink:href="#mdi:arrow-up-bold" x="-9" y="-13" height="18" width="18.0" class="key tap glyph mdi:arrow-up-bold"/>
 </g>
 <g transform="translate(840, 147)" class="key keypos-39">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
-<text x="0" y="-4" class="key tap">End</text>
+<use href="#mdi:arrow-right-bold" xlink:href="#mdi:arrow-right-bold" x="-9" y="-13" height="18" width="18.0" class="key tap glyph mdi:arrow-right-bold"/>
 </g>
 <g transform="translate(896, 161)" class="key keypos-40">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>

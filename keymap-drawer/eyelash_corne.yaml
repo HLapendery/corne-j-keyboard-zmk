@@ -135,10 +135,10 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - Home
-  - PgDn
-  - PgUp
-  - End
+  - Ctl+Gui+$$mdi:arrow-left-bold$$
+  - Ctl+Gui+$$mdi:arrow-down-bold$$
+  - Ctl+Gui+$$mdi:arrow-up-bold$$
+  - Ctl+Gui+$$mdi:arrow-right-bold$$
   - Insert
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
