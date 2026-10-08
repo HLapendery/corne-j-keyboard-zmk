@@ -57,10 +57,10 @@
         nav_layer {
             display-name = "NAV";
             bindings = <
-&studio_unlock  &rgb_ug RGB_TOG  &trans        &trans        &trans        &bt BT_CLR                     &none         &kp HOME  &kp PG_DN  &kp PG_UP  &kp END    &kp DEL  &trans
-&trans          &bt BT_SEL 0     &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4            &none  &none  &none  &kp LEFT  &kp DOWN   &kp UP     &kp RIGHT  &kp DEL  &trans
-&trans          &trans           &trans        &trans        &trans        &trans        &trans           &none         &kp HOME  &kp PG_DN  &kp PG_UP  &kp END    &kp INS  &trans
-                                               &trans        &trans        &trans                                       &trans    &trans     &trans
+&studio_unlock  &rgb_ug RGB_TOG  &trans        &trans        &trans        &bt BT_CLR                     &none         &kp HOME                &kp PG_DN         &kp PG_UP       &kp END            &kp DEL  &trans
+&trans          &bt BT_SEL 0     &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4            &none  &none  &none  &kp LEFT                &kp DOWN          &kp UP          &kp RIGHT          &kp DEL  &trans
+&trans          &trans           &trans        &trans        &trans        &trans        &trans           &none         &kp LC(LG(LEFT_ARROW))  &kp LC(LG(DOWN))  &kp LC(LG(UP))  &kp LC(LG(RIGHT))  &kp INS  &trans
+                                               &trans        &trans        &trans                                       &trans                  &trans            &trans
             >;
         };
     };
