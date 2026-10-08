@@ -28,18 +28,18 @@ layers:
   - K
   - L
   - M
-  - {t: ù, s: '%'}
+  - $$mdi:apple-keyboard-option$$
   - Ctrl
   - W
   - X
   - C
   - V
   - B
-  - Space
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - N
   - {t: ',', s: '?'}
-  - {t: ;, s: .}
+  - Sft+M
   - {t: ':', s: /}
   - {t: '!', s: §}
   - Tab
@@ -48,45 +48,45 @@ layers:
   - Space
   - Enter
   - NUM/SYM
-  - AltGr
+  - $$mdi:apple-keyboard-option$$
   NUM/SYM:
   - {t: '$$mdi:transfer$$', type: trans}
   - '#'
-  - '{'
+  - {t: '6', s: ^}
+  - §
+  - '@'
   - '['
-  - {t: (, s: '5'}
-  - {t: ), s: °}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - ']'
   - '7'
   - '8'
   - '9'
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
   - '|'
   - \
   - ^
-  - '@'
-  - {t: '=', s: +}
+  - {t: '8', s: '*'}
+  - {t: (, s: '5'}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: ), s: °}
   - '4'
   - '5'
   - '6'
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - ']'
-  - '}'
+  - {t: ':', s: /}
+  - {t: '=', s: +}
   - .
   - /
-  - §
+  - '{'
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: ), s: °}
+  - '}'
   - '1'
   - '2'
   - '3'
@@ -94,8 +94,8 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - Space
+  - Enter
   - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   NAV:
