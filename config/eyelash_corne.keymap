@@ -64,10 +64,10 @@
         num_sym_layer {
             display-name = "NUM/SYM";
             bindings = <
-&trans  &kp FR_HASH       &kp FR_MINUS      &kp FR_SECTION  &kp FR_AT_SIGN     &kp FR_LEFT_BRACKET                       &none         &kp FR_RIGHT_BRACKET      &kp FR_N7  &kp FR_N8  &kp FR_N9  &trans  &trans
-&trans  &kp FR_SLASH      &kp FR_BACKSLASH  &kp FR_CARET    &kp FR_UNDERSCORE  &kp FR_LEFT_PARENTHESIS            &none  &none  &none  &kp FR_RIGHT_PARENTHESIS  &kp FR_N4  &kp FR_N5  &kp FR_N6  &trans  &trans
-&trans  &kp SINGLE_QUOTE  &kp FR_EQUAL      &kp FR_PERIOD   &kp DOUBLE_QUOTES  &kp FR_LEFT_BRACE        &trans           &none         &kp FR_RIGHT_BRACE        &kp FR_N1  &kp FR_N2  &kp FR_N3  &kp N0  &trans
-                                            &trans          &trans             &kp SPACE                                               &kp ENTER                 &trans     &trans
+&trans  &kp FR_HASH       &kp FR_MINUS      &mt FR_SECTION AMPS  &kp FR_AT_SIGN     &kp FR_LEFT_BRACKET                       &none         &kp FR_RIGHT_BRACKET      &kp FR_N7  &kp FR_N8  &kp FR_N9  &kp STAR  &trans
+&trans  &kp FR_SLASH      &kp FR_BACKSLASH  &kp FR_CARET         &kp FR_UNDERSCORE  &kp FR_LEFT_PARENTHESIS            &none  &none  &none  &kp FR_RIGHT_PARENTHESIS  &kp FR_N4  &kp FR_N5  &kp FR_N6  &kp PLUS  &trans
+&trans  &kp SINGLE_QUOTE  &kp FR_EQUAL      &kp FR_PERIOD        &kp DOUBLE_QUOTES  &kp FR_LEFT_BRACE        &trans           &none         &kp FR_RIGHT_BRACE        &kp FR_N1  &kp FR_N2  &kp FR_N3  &kp N0    &trans
+                                            &trans               &trans             &kp SPACE                                               &kp ENTER                 &trans     &trans
             >;
         };
 
