@@ -80,9 +80,9 @@
         nav_layer {
             display-name = "NAV";
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans                   &none         &kp HOME                &kp PG_DN         &kp PG_UP       &kp END            &kp DEL  &trans
-&trans  &trans  &trans  &trans  &trans  &trans            &none  &none  &none  &kp LEFT                &kp DOWN          &kp UP          &kp RIGHT          &kp DEL  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans           &none         &kp LC(LG(LEFT_ARROW))  &kp LC(LG(DOWN))  &kp LC(LG(UP))  &kp LC(LG(RIGHT))  &kp INS  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                   &none         &kp HOME                &kp PG_DN         &kp PG_UP       &kp END            &kp DEL      &trans
+&trans  &trans  &trans  &trans  &trans  &trans            &none  &none  &none  &kp LEFT                &kp DOWN          &kp UP          &kp RIGHT          &kp LC(DEL)  &kp LC(BACKSPACE)
+&trans  &trans  &trans  &trans  &trans  &trans  &trans           &none         &kp LC(LG(LEFT_ARROW))  &kp LC(LG(DOWN))  &kp LC(LG(UP))  &kp LC(LG(RIGHT))  &kp INS      &trans
                         &trans  &trans  &trans                                 &trans                  &trans            &trans
             >;
         };
