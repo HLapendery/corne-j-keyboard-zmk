@@ -52,7 +52,7 @@ layers:
   NUM/SYM:
   - {t: '$$mdi:transfer$$', type: trans}
   - '#'
-  - {t: '6', s: ^}
+  - {t: ), s: °}
   - {t: '&', h: §}
   - '@'
   - '['
