@@ -1,6 +1,7 @@
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
+#include <dt-bindings/zmk/pointing.h>
 #include <dt-bindings/zmk/rgb.h>
 #include "keys_fr.h"
 
@@ -11,6 +12,7 @@
         Pipe {
             bindings = <&kp PIPE>;
             key-positions = <14 15>;
+            layers = <1>;
         };
 
         mdp {
@@ -80,10 +82,10 @@
         nav_layer {
             display-name = "NAV";
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans                   &none         &kp HOME                &kp PG_DN         &kp PG_UP       &kp END            &kp DEL      &trans
-&trans  &trans  &trans  &trans  &trans  &trans            &none  &none  &none  &kp LEFT                &kp DOWN          &kp UP          &kp RIGHT          &kp LC(DEL)  &kp LC(BACKSPACE)
-&trans  &trans  &trans  &trans  &trans  &trans  &trans           &none         &kp LC(LG(LEFT_ARROW))  &kp LC(LG(DOWN))  &kp LC(LG(UP))  &kp LC(LG(RIGHT))  &kp INS      &trans
-                        &trans  &trans  &trans                                 &trans                  &trans            &trans
+&trans  &trans     &trans          &mmv MOVE_UP    &trans           &trans                         &none         &kp HOME                &kp PG_DN         &kp PG_UP       &kp END            &kp DEL      &trans
+&trans  &trans     &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &trans                  &none  &none  &none  &kp LEFT                &kp DOWN          &kp UP          &kp RIGHT          &kp LC(DEL)  &kp LC(BACKSPACE)
+&trans  &mkp LCLK  &mkp RCLK       &mkp MCLK       &msc SCRL_DOWN   &msc SCRL_UP  &trans           &none         &kp LC(LG(LEFT_ARROW))  &kp LC(LG(DOWN))  &kp LC(LG(UP))  &kp LC(LG(RIGHT))  &kp INS      &trans
+                                   &trans          &trans           &trans                                       &trans                  &trans            &trans
             >;
         };
 
@@ -91,7 +93,7 @@
             bindings = <
 &studio_unlock  &rgb_ug RGB_TOG  &rgb_ug RGB_EFF  &rgb_ug RGB_BRD  &rgb_ug RGB_BRI  &rgb_ug RGB_COLOR_HSB(0,0,100)                    &trans          &trans  &kp F7  &kp F8  &kp F9  &kp F12  &trans
 &bt BT_CLR      &bt BT_SEL 0     &bt BT_SEL 1     &bt BT_SEL 2     &bt BT_SEL 3     &bt BT_SEL 4                              &trans  &trans  &trans  &trans  &kp F4  &kp F5  &kp F6  &kp F11  &trans
-&trans          &trans           &trans           &trans           &trans           &trans                          &trans            &trans          &trans  &kp F1  &kp F2  &kp F3  &kp F10  &trans
+&trans          &kp C_BRI_DN     &kp C_BRI_UP     &kp C_MUTE       &kp C_VOL_DN     &kp C_VOL_UP                    &trans            &trans          &trans  &kp F1  &kp F2  &kp F3  &kp F10  &trans
                                                   &trans           &trans           &trans                                                            &trans  &trans  &trans
             >;
         };
