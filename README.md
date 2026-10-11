@@ -16,6 +16,55 @@ for future changes; they are not added to the current layout.
 
 ## Current layers
 
+### Home row mods (BASE)
+
+A tap types the French letter; holding activates the modifier:
+
+| Letter | Q | S | D | F | J | K | L | M |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| Hold | Super | Alt | Ctrl | Shift | Shift | Ctrl | Alt | Super |
+
+Both Alt bindings send Left Alt (Right Alt is AltGr on French AZERTY).
+The dedicated modifier keys remain available.
+The left/right behaviors use `balanced`, a 280 ms tapping term,
+150 ms prior idle and 175 ms quick tap. Opposite-hand keys and all thumbs
+can trigger a hold; same-hand rolls resolve to letters before the timeout.
+`hold-trigger-on-release` allows holding several modifiers together.
+Tap then hold the same letter quickly to repeat it.
+These values follow the [ZMK home row mods example](https://zmk.dev/docs/keymaps/behaviors/hold-tap#custom-hold-tap-examples)
+and should be tuned after testing the flashed firmware.
+
+### Combos (BASE)
+
+| Keys pressed together | Action |
+| --- | --- |
+| Z + E | Escape |
+| I + O | Backspace |
+| U + I | Delete |
+| A + Z | Tab |
+| W + X | Ctrl+Z (undo) |
+| E + R | é |
+| R + T | è |
+| Q + S | à |
+| C + V | ç |
+| O + P | ù |
+
+These combos only apply on BASE. Press both keys within 40 ms,
+after at least 150 ms without a non-modifier key press.
+Undo uses `LC(FR_Z)` so the shortcut matches French AZERTY.
+
+### French accents
+
+Use the BASE combos above for lowercase é, è, à, ç and ù.
+Q + S still produces `|` on NUM/SYM.
+Hold both layer thumbs (NUM/SYM + NAV) to activate FUNC:
+the physical A key sends dead circumflex and Z sends dead diaeresis,
+replacing RGB toggle and effect selection at these positions.
+Release the accent key and both layer thumbs, then type the vowel:
+`^` then E gives ê, and `¨` then I gives ï.
+The host must use a French AZERTY layout with dead keys enabled.
+The direct `^` on NUM/SYM remains available for code.
+
 The five optional central switch positions remain disabled.
 
 ```text

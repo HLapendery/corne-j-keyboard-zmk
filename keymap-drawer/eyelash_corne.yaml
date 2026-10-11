@@ -15,19 +15,19 @@ layers:
   - P
   - Backspace
   - Shift
-  - Q
-  - S
-  - D
-  - F
+  - {t: Q, h: Super}
+  - {t: S, h: Alt}
+  - {t: D, h: Ctrl}
+  - {t: F, h: Shift}
   - G
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - H
-  - J
-  - K
-  - L
-  - M
+  - {t: J, h: Shift}
+  - {t: K, h: Ctrl}
+  - {t: L, h: Alt}
+  - {t: M, h: Super}
   - $$mdi:apple-keyboard-caps$$
   - Ctrl
   - W
@@ -52,7 +52,7 @@ layers:
   NUM/SYM:
   - {t: '$$mdi:transfer$$', type: trans}
   - '#'
-  - {t: ), s: °}
+  - {t: '-', s: '6'}
   - {t: '&', h: §}
   - '@'
   - '['
@@ -61,13 +61,13 @@ layers:
   - '7'
   - '8'
   - '9'
-  - '*'
+  - {t: '*', s: µ}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - /
   - \
   - ^
-  - {t: '8', s: '*'}
+  - {t: _, s: '8'}
   - {t: (, s: '5'}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
@@ -79,10 +79,10 @@ layers:
   - +
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '''', s: '"'}
+  - {t: '''', s: '4'}
   - {t: '=', s: +}
   - .
-  - '"'
+  - {t: '"', s: '3'}
   - '{'
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
@@ -149,8 +149,8 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   FUNC:
   - Studio unlock
-  - RGB TOG
-  - RGB EFF
+  - {t: ^, h: dead}
+  - {t: ¨, h: dead}
   - RGB BRD
   - RGB BRI
   - RGB COLOR HSB(0,0,100)
@@ -197,6 +197,36 @@ layers:
   - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
 combos:
+- p: [2, 3]
+  k: Esc
+  l: [BASE]
+- p: [9, 10]
+  k: Backspace
+  l: [BASE]
+- p: [8, 9]
+  k: Delete
+  l: [BASE]
+- p: [1, 2]
+  k: Tab
+  l: [BASE]
+- p: [29, 30]
+  k: Ctrl+Z
+  l: [BASE]
+- p: [3, 4]
+  k: é
+  l: [BASE]
+- p: [4, 5]
+  k: è
+  l: [BASE]
+- p: [14, 15]
+  k: à
+  l: [BASE]
+- p: [31, 32]
+  k: ç
+  l: [BASE]
+- p: [10, 11]
+  k: {t: ù, s: '%'}
+  l: [BASE]
 - p: [14, 15]
   k: '|'
   l: [NUM/SYM]

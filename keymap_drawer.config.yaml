@@ -117,6 +117,28 @@ parse_config:
     type: trans
 
   raw_binding_map:
+    "&kp FR_E_ACUTE": {tap: 'é'}
+    "&kp FR_E_GRAVE": {tap: 'è'}
+    "&kp FR_A_GRAVE": {tap: 'à'}
+    "&kp FR_C_CEDILLA": {tap: 'ç'}
+    "&kp FR_DEAD_CIRCUMFLEX": {tap: '^', hold: dead}
+    "&kp FR_DEAD_DIAERESIS": {tap: '¨', hold: dead}
+    "&kp FR_MINUS": {tap: '-', shifted: '6'}
+    "&mt FR_SECTION FR_AMPERSAND": {tap: '&', hold: '§'}
+    "&kp FR_UNDERSCORE": {tap: '_', shifted: '8'}
+    "&kp FR_APOSTROPHE": {tap: "'", shifted: '4'}
+    "&kp FR_DOUBLE_QUOTES": {tap: '"', shifted: '3'}
+    "&kp FR_ASTERISK": {tap: '*', shifted: 'µ'}
+    "&kp FR_PLUS": {tap: '+'}
+    "&kp LC(FR_Z)": {tap: Ctrl+Z}
+    "&hml LGUI FR_Q": {tap: Q, hold: Super}
+    "&hml LALT FR_S": {tap: S, hold: Alt}
+    "&hml LCTRL FR_D": {tap: D, hold: Ctrl}
+    "&hml LSHFT FR_F": {tap: F, hold: Shift}
+    "&hmr RSHFT FR_J": {tap: J, hold: Shift}
+    "&hmr RCTRL FR_K": {tap: K, hold: Ctrl}
+    "&hmr LALT FR_L": {tap: L, hold: Alt}
+    "&hmr RGUI FR_M": {tap: M, hold: Super}
     # French AZERTY legends (aliases from config/keys_fr.h).
     "&kp FR_A": {"tap": "A", "shifted": "", "hold": ""}
     "&kp FR_AT_SIGN": {"tap": "@", "shifted": "", "hold": ""}
