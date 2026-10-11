@@ -104,6 +104,13 @@ after publication.
 
 ## Local workflow and rollback
 
+The build calls `.github/workflows/build-user-config.yml`, a local copy of
+the official ZMK v0.3.0 workflow with Node 24 actions: checkout v5, cache v5,
+and upload-artifact/merge v6. This removes Node 20 deprecation warnings
+while keeping the v0.3.0 build logic and the firmware revision in `config/west.yml`.
+When updating the build workflow, compare it with the upstream v0.3.0 source
+linked in its header. Validation of workflow changes requires a GitHub Actions run.
+
 Working copy: `~/Code/corne-j-keyboard-zmk`, branch `keymap-v1`.
 This path is outside the ThinkPad's Syncthing folders (`~/Documents` and
 `~/Shared`); Git handles the firmware repository.
