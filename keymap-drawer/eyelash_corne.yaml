@@ -1,7 +1,7 @@
 layout: {zmk_keyboard: eyelash_corne}
 layers:
   BASE:
-  - Esc
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - A
   - Z
   - E
@@ -14,7 +14,7 @@ layers:
   - O
   - P
   - Backspace
-  - Shift
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: Q, h: Super}
   - {t: S, h: Alt}
   - {t: D, h: Ctrl}
@@ -29,7 +29,7 @@ layers:
   - {t: L, h: Alt}
   - {t: M, h: Super}
   - $$mdi:apple-keyboard-caps$$
-  - Ctrl
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - W
   - X
   - C
@@ -39,22 +39,22 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - N
   - {t: ',', s: '?'}
-  - Sft+M
+  - FR DOT
   - {t: ':', s: /}
   - {t: '!', s: §}
-  - Tab
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - Meta
-  - NUM/SYM
+  - {t: Esc, h: NUM/SYM}
   - Space
   - Enter
   - NAV
-  - $$mdi:apple-keyboard-option$$
+  - Tab
   NUM/SYM:
   - {t: '$$mdi:transfer$$', type: trans}
   - '#'
+  - {t: '@', h: <}
+  - {t: '1', h: '>', s: '!'}
   - {t: '-', s: '6'}
-  - {t: '&', h: §}
-  - '@'
   - '['
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - ']'
@@ -66,7 +66,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - /
   - \
-  - ^
+  - {t: '"', s: '3'}
   - {t: _, s: '8'}
   - {t: (, s: '5'}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
@@ -79,10 +79,10 @@ layers:
   - +
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '''', s: '4'}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - FR SINGLE QUOTE
   - {t: '=', s: +}
-  - .
-  - {t: '"', s: '3'}
   - '{'
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
@@ -125,8 +125,8 @@ layers:
   - ↓
   - ↑
   - →
-  - Ctl+$$mdi:backspace-reverse-outline$$
   - {t: 'Ctl+$$mdi:backspace$$', type: backspace}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:mouse-left-click-outline$$
   - $$mdi:mouse-right-click-outline$$
@@ -139,7 +139,7 @@ layers:
   - Ctl+Gui+$$mdi:arrow-down-bold$$
   - Ctl+Gui+$$mdi:arrow-up-bold$$
   - Ctl+Gui+$$mdi:arrow-right-bold$$
-  - Insert
+  - Ctl+$$mdi:backspace-reverse-outline$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -149,8 +149,8 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   FUNC:
   - Studio unlock
-  - {t: ^, h: dead}
-  - {t: ¨, h: dead}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - RGB TOG
   - RGB BRD
   - RGB BRI
   - RGB COLOR HSB(0,0,100)
