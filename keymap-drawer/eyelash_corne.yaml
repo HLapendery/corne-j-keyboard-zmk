@@ -52,12 +52,12 @@ layers:
   NUM/SYM:
   - {t: '$$mdi:transfer$$', type: trans}
   - '#'
-  - {t: '@', h: <}
-  - {t: '1', h: '>', s: '!'}
+  - {t: '@', h: \}
+  - {t: '1', h: Sft+\, s: '!'}
   - {t: '-', s: '6'}
-  - '['
+  - {t: '[', h: AltGr+E}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - ']'
+  - {t: ']', h: ']'}
   - '7'
   - '8'
   - '9'
@@ -68,7 +68,7 @@ layers:
   - \
   - {t: '"', s: '3'}
   - {t: _, s: '8'}
-  - {t: (, s: '5'}
+  - {t: (, h: Sft+', s: '5'}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
@@ -81,7 +81,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '[', s: '{'}
   - {t: 'Sft+[', s: 'Sft+{'}
-  - .
+  - '4'
   - {t: '=', s: +}
   - '{'
   - {t: '$$mdi:transfer$$', type: trans}
@@ -199,31 +199,22 @@ layers:
 combos:
 - p: [2, 3]
   k: Esc
-  l: [BASE]
 - p: [9, 10]
   k: Backspace
-  l: [BASE]
 - p: [8, 9]
   k: Delete
-  l: [BASE]
 - p: [1, 2]
   k: Tab
-  l: [BASE]
 - p: [29, 30]
   k: Ctrl+Z
-  l: [BASE]
 - p: [3, 4]
   k: é
-  l: [BASE]
 - p: [4, 5]
   k: è
-  l: [BASE]
 - p: [14, 15]
   k: à
-  l: [BASE]
 - p: [31, 32]
   k: ç
-  l: [BASE]
 - p: [10, 11]
   k: {t: ù, s: '%'}
   l: [BASE]
@@ -234,4 +225,3 @@ combos:
   k: '&mdp'
 - p: [7, 8]
   k: Tab
-  l: [BASE]
