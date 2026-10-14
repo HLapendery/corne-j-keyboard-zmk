@@ -168,7 +168,7 @@
             bindings = <
 &none  &kp FR_A        &kp FR_Z        &kp FR_E         &kp FR_R         &kp FR_T                    &none         &kp FR_Y   &kp FR_U         &kp FR_I         &kp FR_O        &kp FR_P            &none
 &none  &hml LGUI FR_Q  &hml LALT FR_S  &hml LCTRL FR_D  &hml LSHFT FR_F  &kp FR_G             &none  &none  &none  &kp FR_H   &hmr RSHFT FR_J  &hmr RCTRL FR_K  &hmr LALT FR_L  &hmr RGUI FR_M      &none
-&none  &kp FR_W        &kp FR_X        &kp FR_C         &kp FR_V         &kp FR_B   &trans           &none         &kp FR_N   &kp FR_COMMA     &kp PERIOD       &kp FR_COLON    &kp FR_EXCLAMATION  &none
+&none  &kp FR_W        &kp FR_X        &kp FR_C         &kp FR_V         &kp FR_B   &trans           &none         &kp FR_N   &kp FR_COMMA     &kp FR_PERIOD    &kp FR_COLON    &kp FR_EXCLAMATION  &none
                                        &kp LGUI         &lt 1 ESC        &kp SPACE                                 &kp ENTER  &cwl 2 0         &kp BACKSPACE
             >;
         };
@@ -187,7 +187,7 @@
             bindings = <
 &trans  &kp FR_HASH       &mt NON_US_BACKSLASH RA(N0)  &mt LS(NON_US_BACKSLASH) FR_AMPERSAND  &kp FR_MINUS       &mt RA(E) FR_LEFT_BRACKET                         &none         &mt RIGHT_BRACKET FR_RIGHT_BRACKET  &kp FR_N7  &kp FR_N8  &kp FR_N9  &kp FR_ASTERISK  &trans
 &trans  &kp FR_SLASH      &kp FR_BACKSLASH             &kp FR_DOUBLE_QUOTES                   &kp FR_UNDERSCORE  &mt LS(SQT) FR_LEFT_PARENTHESIS            &none  &none  &none  &kp FR_RIGHT_PARENTHESIS            &kp FR_N4  &kp FR_N5  &kp FR_N6  &kp FR_PLUS      &trans
-&trans  &kp LEFT_BRACKET  &kp LS(LEFT_BRACKET)         &kp LS(N4)                             &kp FR_EQUAL       &kp FR_LEFT_BRACE                &trans           &none         &kp FR_RIGHT_BRACE                  &kp FR_N1  &kp FR_N2  &kp FR_N3  &kp FR_N0        &trans
+&trans  &kp LEFT_BRACKET  &kp LS(LEFT_BRACKET)         &kp FR_APOSTROPHE                      &kp FR_EQUAL       &kp FR_LEFT_BRACE                &trans           &none         &kp FR_RIGHT_BRACE                  &kp FR_N1  &kp FR_N2  &kp FR_N3  &kp FR_N0        &trans
                                                        &trans                                 &trans             &trans                                                          &trans                              &trans     &trans
             >;
         };
