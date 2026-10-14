@@ -81,7 +81,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '[', s: '{'}
   - {t: 'Sft+[', s: 'Sft+{'}
-  - '4'
+  - {t: '''', s: '4'}
   - {t: '=', s: +}
   - '{'
   - {t: '$$mdi:transfer$$', type: trans}
